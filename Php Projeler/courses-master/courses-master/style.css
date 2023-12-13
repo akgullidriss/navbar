@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box {
+    height: 86vh;
+    width: 75%;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+
+.container .box nav {
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+.container .box nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.container .box nav ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #242329;
+    transition: 0.3s
+}
+
+.container .box nav ul li a:hover {
+    color: #7c8bd1;
+}
+
+.container .box nav .logo {
+    font-size: 35px;
+    color: #242329;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.container .box .contains {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+}
+
+.contains .section-1 {
+    position: relative;
+    width: 40%;
+}
+
+.contains .section-1 h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #242329;
+    text-align: center;
+}
+
+.contains .section-1 h3 {
+    color: #6f34fe;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contains .section-1 p {
+    font-size: 18px;
+    color: #505052;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contains .section-2 {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.contains .section-2 img {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.contains .section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    left: 10px;
+    top: 30%;
+}
+
+.contains .section-3 a i {
+    font-size: 25px;
+    cursor: pointer;
+    color: #7c8bd1;
+    transition: 0.3s;
+}
+
+.contains .section-3 i:hover {
+    color: #6f34fe;
+}
+
+@media screen and (min-width:800px) and (max-width:1105px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background: url(background.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .box {
+        height: 86vh;
+        width: 75%;
+        padding: 0 20px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        display: flex;
+        position: relative;
+    }
+    .container .box .contains {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 15%;
+        padding-left: 80px;
+    }
+    .contains .section-1 {
+        position: relative;
+        height: 40%;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contains .section-2 {
+        position: relative;
+        height: 60%;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .contains .section-2 img {
+        width: 40%;
+        height: 80%;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:800px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background: url(background.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .box {
+        height: 86vh;
+        width: 75%;
+        padding: 0 20px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        display: flex;
+        position: relative;
+    }
+    .container .box .contains {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 15%;
+        padding-left: 80px;
+    }
+    .contains .section-1 {
+        position: relative;
+        height: 40%;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contains .section-2 {
+        position: relative;
+        height: 60%;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 50px;
+    }
+    .contains .section-2 img {
+        width: 40%;
+        height: 60%;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:470px) and (max-width:650px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background: url(background.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .box {
+        height: 86vh;
+        width: 75%;
+        padding: 0 20px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        display: flex;
+        position: relative;
+    }
+    .container .box .contains {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 28%;
+        padding-left: 80px;
+    }
+    .contains .section-1 {
+        position: relative;
+        height: 40%;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contains .section-1 h1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #242329;
+    }
+    .contains .section-1 h3 {
+        color: #6f34fe;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .contains .section-1 p {
+        font-size: 15px;
+        color: #505052;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .contains .section-2 {
+        position: relative;
+        height: 60%;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 70px;
+    }
+    .contains .section-2 img {
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:470px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background: url(background.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .box {
+        height: 86vh;
+        width: 75%;
+        padding: 0 20px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        display: flex;
+        position: relative;
+    }
+    .container .box .contains {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 28%;
+        padding-left: 80px;
+    }
+    .contains .section-1 {
+        position: relative;
+        height: 40%;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contains .section-1 h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #242329;
+    }
+    .contains .section-1 h3 {
+        color: #6f34fe;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .contains .section-1 p {
+        font-size: 15px;
+        color: #505052;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .contains .section-2 {
+        position: relative;
+        height: 60%;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 70px;
+    }
+    .contains .section-2 img {
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+    }
+}
+
+.kutu {
+    background-color: rgb(220, 243, 255);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.kutu h4 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.kutu h4:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: purple;
+}

@@ -1,0 +1,470 @@
+[data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.wrapper {
+    height: 100%;
+    width: 300px;
+    position: relative;
+    z-index: 100;
+    right: 20px;
+    position: fixed;
+}
+
+.wrapperr {
+    height: 100%;
+    width: 300px;
+    position: relative;
+    z-index: 100;
+    right: 20px;
+    position: fixed;
+}
+
+.wrapperl {
+    height: 100%;
+    width: 300px;
+    position: relative;
+    z-index: 100;
+    left: 20px;
+    position: fixed;
+}
+
+.wrapper .menu-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: rgb(246, 224, 94);
+    color: black;
+    height: 45px;
+    width: 45px;
+    z-index: 9999;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.wrapperr .menu-btnn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: rgb(246, 224, 94);
+    color: black;
+    height: 45px;
+    width: 45px;
+    z-index: 9999;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.wrapperl .menu-btnl {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background: rgb(246, 224, 94);
+    color: black;
+    height: 45px;
+    width: 45px;
+    z-index: 9999;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#btn:checked~.menu-btn {
+    right: 20px;
+}
+
+.wrapper .menu-btn i {
+    position: absolute;
+    font-size: 23px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .menu-btn i.fa-times {
+    opacity: 0;
+}
+
+#btn:checked~.menu-btn i.fa-times {
+    opacity: 1;
+    transform: rotate(-180deg);
+}
+
+#btn:checked~.menu-btn i.fa-bars {
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+#sidebar {
+    position: fixed;
+    background: #404040;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 100%;
+    width: 270px;
+    overflow: hidden;
+    right: -270px;
+    transition: all 0.3s ease;
+}
+
+#btn:checked~#sidebar {
+    right: 0;
+}
+
+#sidebar .title {
+    line-height: 65px;
+    text-align: center;
+    background: #333;
+    font-size: 25px;
+    font-weight: 600;
+    color: #f2f2f2;
+    border-bottom: 1px solid #222;
+}
+
+#sidebar .list-items {
+    position: relative;
+    background: #404040;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin-top: 100px;
+}
+
+#sidebar .list-items li {
+    padding-left: 40px;
+    line-height: 50px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#sidebar .list-items li:hover {
+    box-shadow: 0 0px 10px 3px #222;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(246, 224, 94);
+}
+
+#sidebar .list-items li:first-child {
+    border-top: none;
+}
+
+#sidebar .list-items li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#sidebar .list-items li a i {
+    margin-right: 20px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #202020;
+    z-index: -1;
+    width: 100%;
+    text-align: center;
+}
+
+.content .header {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 00px !important;
+    justify-content: space-around;
+}
+
+.container .card {
+    position: relative;
+    width: 24%;
+    height: 170px;
+    background-color: #F4F6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center !important;
+    overflow: hidden;
+    margin: 0px;
+    transition: 0.5s;
+}
+
+.container .box {
+    text-align: center !important;
+    width: 100%
+}
+
+.box h2 {
+    font-size: 15px;
+    padding-top: 20px
+}
+
+.container .card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgb(37, 37, 49);
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5%, 5%);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 470;
+    stroke-dashoffset: 470;
+}
+
+.mySlides {
+    display: none;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.cardd img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+
+.row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pagenation {
+    margin: 2em 0 1em 0;
+}
+
+.pagenation:after,
+.pagenation ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.pagenation ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagenation li {
+    /*float: left;*/
+    list-style: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.pagenation li:first-child {
+    margin-left: 0;
+}
+
+.pagenation li.active {
+    background-color: rgb(246, 224, 94);
+    ;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: not-allowed;
+    padding: 10px 20px;
+}
+
+.pagenation li a {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pagenation li a:hover {
+    background-color: #777;
+    color: #FFFFFF;
+    opacity: 0.8;
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.pagenation li.prev a,
+.pagenation li.next a {
+    padding-bottom: 9px;
+}
+
+.pagenation li.prev a::before,
+.pagenation li.next a::after {
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-weight: bold;
+}
+
+.pagenation li.prev a::before {
+    content: "\f104";
+    margin-right: 10px;
+}
+
+.pagenation li.next a::after {
+    content: "\f105";
+    margin-left: 10px;
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 25%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .column {
+        width: 33%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Style the counter cards */
+
+.cardd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .h3m {
+        font-size: 15px
+    }
+    .p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:600px) {
+    .container .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:760px) {
+    .h {
+        display: none;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .container .card {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:370px) {
+    .p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:950px) {
+    .col-md-6 p {
+        font-size: 11px;
+    }
+}
