@@ -1,0 +1,67 @@
+body {
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.dropdown {
+  width: 50%;
+}
+.container-main {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 50px;
+}
+.btngndcs {
+  width: 10%;
+  height: 50px;
+  border: 1px solid purple;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+  margin-top: 20px;
+}
+.btngndcs:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .container-main {
+    margin: 10px;
+  }
+  .sorgulabuton {
+    margin-top: 20px;
+  }
+  .col {
+    margin-bottom: 20px;
+  }
+  .btngndcs {
+    width: 50%;
+    height: 50px;
+    border: 1px solid purple;
+    border-radius: 7px;
+    color: purple;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .btngndcs:hover {
+    transition: 0.3s;
+    background-color: purple;
+    color: white;
+  }
+  .dropdown {
+    width: 90%;
+  }
+}

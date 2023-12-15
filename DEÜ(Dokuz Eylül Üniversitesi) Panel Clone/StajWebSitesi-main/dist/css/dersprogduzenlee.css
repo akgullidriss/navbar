@@ -1,0 +1,54 @@
+body {
+  background-color: #f4f6f9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.dropdown {
+  width: 50%;
+}
+.container-main {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 50px;
+}
+.btngndcs {
+  width: auto;
+  height: 30px;
+  border: 1px solid purple;
+  border-radius: 6px;
+  color: purple;
+  background-color: white;
+}
+.btngndcs:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+.table-bordered th {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container-main {
+    margin: 10px;
+  }
+  .sorgulabuton {
+    margin-top: 20px;
+  }
+  .col {
+    margin-bottom: 20px;
+  }
+  .dropdown {
+    width: 90%;
+  }
+}

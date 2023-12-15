@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+  }
+  .logotext {
+    font-size: 25px;
+    font-weight: bold;
+  }

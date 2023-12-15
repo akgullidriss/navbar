@@ -1,0 +1,96 @@
+body {
+  background-color: #f4f6f9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.select-container {
+  display: flex;
+  justify-content: center; /* Elementleri yatayda ortala */
+  align-items: center; /* Elementleri dikeyde ortala */
+}
+.dersad {
+  width: 35%;
+  margin-top: 30px;
+}
+.sinif {
+  width: 35%;
+}
+.sube {
+  width: 35%;
+  margin-left: 20px;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.container-main {
+  width: 45%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+  float: left;
+}
+.container-main-2 {
+  width: 94%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+  float: left;
+}
+
+.btngndcs {
+  width: 30%;
+  height: 50px;
+  border: 1px solid purple;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+  margin-top: 20px;
+}
+.btngndcs:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+.dropdown {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .container-main {
+    margin: 10px;
+  }
+  .sorgulabuton {
+    margin-top: 20px;
+  }
+  .col {
+    margin-bottom: 20px;
+  }
+  .logosyf {
+    width: 50%;
+    height: 50%;
+  }
+  .btngndcs {
+    width: 50%;
+    height: 50px;
+    border: 1px solid purple;
+    border-radius: 7px;
+    color: purple;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .btngndcs:hover {
+    transition: 0.3s;
+    background-color: purple;
+    color: white;
+  }
+  .dropdown {
+    width: 90%;
+  }
+}

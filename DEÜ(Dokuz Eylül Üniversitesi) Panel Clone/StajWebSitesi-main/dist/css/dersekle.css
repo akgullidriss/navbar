@@ -1,0 +1,65 @@
+body {
+  background-color: #f4f6f9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container-info {
+  width: 95%;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+  margin-bottom: 0px;
+}
+.container-main {
+  width: 30%;
+  height: 900px;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+  margin-right: 0px;
+}
+.container-main-2 {
+  width: 63%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+}
+.table-bordered th {
+  text-align: center;
+}
+.btngndcs {
+  width: 30%;
+  height: 50px;
+  border: 1px solid purple;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+  margin-top: 20px;
+}
+.btngndcs:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+.btngndislem {
+  width: auto;
+  height: 30px;
+  border: 1px solid purple;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+}
+.btngndislem:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+.dropdown {
+  width: 50%;
+}

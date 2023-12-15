@@ -1,0 +1,77 @@
+body {
+    background-color: #f4f6f9;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .logo {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+  }
+  .container-main {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 50px;
+  }
+  .btngndcs {
+    width: 10%;
+    height: 50px;
+    border: 1px solid purple;
+    border-radius: 7px;
+    color: purple;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .btngndcs:hover {
+    transition: 0.3s;
+    background-color: purple;
+    color: white;
+  }
+  #label1 {
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+  #label2 {
+    margin-right: 50px;
+  }
+  #label3 {
+    visibility: hidden;
+    margin-right: 50px;
+  }
+  #label4 {
+    visibility: hidden;
+  }
+  .label-group {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .leftlabel {
+    float: left;
+  }
+  .dropdown {
+    width: 50%;
+  }
+  .datepick {
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid #c3c5c7;
+    text-align: center;
+  }
+  .r3 {
+    visibility: hidden;
+  }
+  .r4 {
+    visibility: hidden;
+  }
+  @media screen and (max-width: 600px) {
+    .container-main {
+      margin: 10px;
+      padding-top: 20px;
+    }
+  }
+  

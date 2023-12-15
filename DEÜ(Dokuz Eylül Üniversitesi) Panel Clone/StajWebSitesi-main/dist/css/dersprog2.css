@@ -1,0 +1,85 @@
+body {
+  background-color: #f4f6f9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.select-container {
+  display: flex;
+  justify-content: center; /* Elementleri yatayda ortala */
+  align-items: center; /* Elementleri dikeyde ortala */
+}
+.ortalatest {
+  display: flex;
+  justify-content: center; /* Elementleri yatayda ortala */
+  align-items: center; /* Elementleri dikeyde ortala */
+}
+.dersad {
+  width: 35%;
+  margin-top: 30px;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.container-info {
+  width: 95%;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+  margin-bottom: 0px;
+}
+.container-main {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+  margin-right: 0px;
+}
+.container-main-2 {
+  width: 63%;
+  background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2%;
+}
+
+.btngndcs {
+  width: 30%;
+  height: 50px;
+  border: 1px solid purple;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+  margin-top: 20px;
+}
+.btngndcs:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+.btngndislem {
+  width: auto;
+  height: 30px;
+  border: 1px solid purple;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+}
+.btngndislem:hover {
+  transition: 0.3s;
+  background-color: purple;
+  color: white;
+}
+.dropdown {
+  width: 60%;
+}
+.datepick {
+  border-radius: 5px;
+  border: 1px solid #c3c5c7;
+  text-align: center;
+}
